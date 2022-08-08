@@ -1,0 +1,155 @@
+#bgDiv{
+  height: 100%;
+  width: 100%;
+  background-image: url("https://images.alphacoders.com/674/674925.png");
+  filter: blur(1px);
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top: 20vh;
+}
+.task{
+  font-size: 50px;
+  color: rgb(37, 233, 145);
+  font-weight: bolder;
+}
+#list{
+  font-size: 50px;
+  color: rgba(25, 24, 26, 0.345);
+  font-weight: bolder;
+}
+.divOne{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 50px;
+  font-weight: bold;
+  color: aqua;
+}
+i{
+  font-size: 38px;
+  color: orangered;
+  cursor: pointer;
+}
+#add{
+  font-size: 40px;
+  color: rgb(170, 4, 220);
+  font-weight: lighter;
+}
+.divTwo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: rgb(171, 161, 17);
+  text-align: center; 
+  position: relative;
+  top: 25vh;
+}
+.cardOne{
+  width: 300px;
+  height: 170px;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  color:rgb(117, 56, 33);
+  z-index: 1;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 5px 5px 8px rgb(38, 190, 214); 
+  background-color: rgba(255, 255, 255, 0.795);
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+input{
+  border-radius: 5px;
+  width: 85%;
+  max-width: 270px;
+  height: 35px;
+  box-shadow: 5px 3px 10px rgb(202, 197, 197);
+  border: 1px solid orangered;
+  display: block;
+  margin: auto;
+}
+.button{
+  width: 80px;
+  height: 35px;
+  font-size: 20px;
+  background-color: orangered;
+  color: white;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1.5vw;
+  box-sizing: border-box;
+  padding: 0.35rem;
+}
+.buttons{
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  bottom: 2vh;
+  right: 1vw;
+}
+.buttons i{
+  padding: 10px;
+}
+#title{
+  cursor: pointer;
+  font-size: 2rem;
+}
+.cards {
+  position: relative;
+  box-shadow: 5px 5px 5px 5px violet ;
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-style: oblique;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.833);
+}
+
+
+/*create new css*/
+
+.new{
+  display: flex;
+  flex-direction: row;
+  margin-top: -650px;
+  padding: 10px;
+  z-index: 3;
+}
+.new-card{
+  text-align: center;
+}
+.main{
+  position: relative;
+}
+.back{
+  color: black;
+  font-size: 45px;
+  margin: 5px;
+}
+.new-card{
+  margin-left: 42%;
+}
+h1{
+  font-size: 45px;
+}
+.h1{
+  font-size: 45px;
+  margin-left: 33%;
+  padding: 0px;
+}
